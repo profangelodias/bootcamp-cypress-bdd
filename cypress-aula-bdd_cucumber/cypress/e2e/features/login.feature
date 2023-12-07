@@ -8,4 +8,4 @@ Cenario: Autenticação Válida
 Quando eu digitar o usuário "standard_user"
 E a senha "secret_sauce"
 E confirmar login
-Então deve ser exibida a logo do "Swag Labs"
+Então deve ser exibido o título "Products"

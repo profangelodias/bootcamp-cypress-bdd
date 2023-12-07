@@ -23,3 +23,8 @@ And("confirmar login", () => {
 Then("deve ser exibida a logo do {string}", (text) => {
     loginPage.validarLoginComTextoDaLogo(text)
 })
+
+
+Then("deve ser exibido o título {string}", (text) => {
+    loginPage.validarTituloDaPagina(text)
+})

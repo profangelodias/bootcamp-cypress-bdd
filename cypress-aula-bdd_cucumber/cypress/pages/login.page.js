@@ -21,6 +21,10 @@ class LoginPage {
         cy.get('.app_logo').should('have.text', text)
     }
 
+    validarTituloDaPagina(text) {
+        cy.get('.title').should('have.text', text)
+    }
+
 
 }
 
